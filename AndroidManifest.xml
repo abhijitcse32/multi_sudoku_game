@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multisudoku"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sudokulogo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MultiSudoku"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.CLEARSCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:name="com.example.multisudoku.SelectSudoku"
+            android:label="@string/selectlanguage_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.StripeSudoku"
+            android:label="@string/stripesudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.XSudoku"
+            android:label="@string/xsudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.HyperSudoku"
+            android:label="@string/hypersudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.CenterDotSudoku"
+            android:label="@string/centerdotsudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.AsterikSudoku"
+            android:label="@string/asteriksudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.HowToPlay"
+            android:label="@string/asteriksudoku_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.Quiz"
+            android:label="@string/quiz_title" />
+        
+         <activity
+            android:name="com.example.multisudoku.Other"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.StripeSudokuHowtoPlay"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.XSudokuHowtoPlay"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.HyperSudokuHowtoPlay"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.CenterDotSudokuHowtoPlay"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.AsterikSudokuHowtoPlay"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.Website"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.FacebookPage"
+            android:label="@string/quiz_title" />
+         
+         <activity
+            android:name="com.example.multisudoku.AboutUs"
+            android:label="@string/quiz_title" />
+        
+        
+        
+        
+        <activity android:name=".PrefsStripeSudoku" android:label="@string/settings_title">
+        </activity>
+        
+        <activity android:name=".StripeSudokuGame" android:label="@string/game_title" />
+        
+        <activity android:name=".PrefsAsterikSudoku" android:label="@string/settings_title">
+        </activity>
+        
+        <activity android:name=".AsterikSudokuGame" android:label="@string/game_title" />
+        
+        <activity android:name=".PrefsCenterdotSudoku" android:label="@string/settings_title">
+        </activity>
+        
+        <activity android:name=".CenterDotSudokuGame" android:label="@string/game_title" />
+        
+        <activity android:name=".PrefsXSudoku" android:label="@string/settings_title">
+        </activity>
+        
+        <activity android:name=".XSudokuGame" android:label="@string/game_title" />
+        
+        <activity android:name=".PrefsHyperSudoku" android:label="@string/settings_title">
+        </activity>
+        
+        <activity android:name=".HyperSudokuGame" android:label="@string/game_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.SabdoSongjojon"
+            android:label="@string/sound_title" />
+        
+        <service android:enabled="true" android:name=".MyService" />
+        
+        
+        
+        <activity
+            android:name="com.example.multisudoku.ResultActivity"
+            android:label="@string/quizresult_title" >
+        </activity>
+        
+        <activity
+            android:name="com.example.multisudoku.EmailSahajjo"
+            android:label="@string/email_title" />
+        
+        <activity
+            android:name="com.example.multisudoku.AboutThisApps"
+            android:label="@string/about_title" />
+        
+        
+        
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
